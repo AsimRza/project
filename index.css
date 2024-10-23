@@ -1,0 +1,151 @@
+
+.search-area {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+
+.notary-item:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+
+#pagination {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center pagination buttons */
+  margin-top: 20px; /* Space above pagination */
+}
+
+.pagination-button {
+  background: #007bff; /* Button background color */
+  color: white; /* Button text color */
+  border: none; /* Remove border */
+  padding: 10px 15px; /* Button padding */
+  margin: 0 5px; /* Space between buttons */
+  border-radius: 5px; /* Rounded corners for buttons */
+  cursor: pointer; /* Cursor changes to pointer on hover */
+  transition: background 0.3s; /* Smooth transition for hover */
+}
+
+.pagination-button:hover {
+  background: #0056b3; /* Darker color on hover */
+}
+
+.pagination-button:disabled {
+  background: #e0e0e0; /* Light gray for disabled buttons */
+  cursor: not-allowed; /* Show not-allowed cursor */
+  color: #666; /* Darker gray for disabled text */
+}
+
+.search-box {
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.notary-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.notary-item {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.notary-item h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.notary-info {
+  margin-top: 10px;
+}
+
+.notary-info span {
+  display: block;
+  margin: 5px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.fa {
+  margin-right: 5px;
+  color: #333;
+}
+
+.results-area {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.results-area h5 {
+  font-weight: bold;
+}
+
+.results-area p {
+  margin: 5px 0;
+}
+
+.btn {
+  border-radius: 10px;
+}
+
+.search-area h5 {
+  font-weight: bold;
+}
+
+.input-group {
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+
+.input-group .form-control {
+  border: none;
+  box-shadow: none;
+}
+
+.input-group-text {
+  background: none;
+  border: none;
+}
+
+.area-list {
+  margin-top: 20px;
+}
+
+.area-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.area-list li {
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+.area-list li strong {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
